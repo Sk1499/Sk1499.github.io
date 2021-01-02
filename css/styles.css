@@ -114,3 +114,50 @@ nav a:focus{
     background-image: url(../img/stock-trading.jpg);
     color: #FFB73F;
 }
+.about-speaker{
+
+    padding: 0.8em;
+    color: #000000;
+}
+.about-speaker img{
+
+    width: 400px;
+    height: auto;
+}
+.about-speaker span{
+
+    float:left;
+    margin-left: 4em;
+}
+.about-speaker p{
+
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 0.5em;
+    text-align: left;
+    color: black;
+}
+.about-bisaat{
+
+    padding: 1em;
+    background-color: rgb(65, 65, 65);
+}
+.about-bisaat span {
+
+    display: inline-block;
+    margin: 1em;
+    margin-top: 0;
+    margin-inline: 8em;
+    background-color: rgb(65, 65, 65);
+    color: #FFB73F;
+}
+.about-bisaat span p{
+
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 0.5em;
+    text-align: left;
+    color: rgb(241, 241, 241);
+}
