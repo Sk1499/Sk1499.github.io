@@ -21,7 +21,7 @@ img{
 
 .container{
 
-    width: 95%;
+    width: 100%;
     height: 0 auto;
 }
 
@@ -95,10 +95,11 @@ nav a{
     font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 0.9em;
     padding: 0.5em;
     color: rgb(241, 241, 241);
 }
+
 nav a:hover,
 nav a:focus{
 
@@ -107,6 +108,7 @@ nav a:focus{
 
 .home-hero{
 
+    text-align: center;
     margin: 0;
     padding: 7em 0;
     background-image: url(../img/stock-trading.jpg);
