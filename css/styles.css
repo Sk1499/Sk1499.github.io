@@ -162,9 +162,10 @@ nav a:focus{
     border-color: white;
     color: #FFB73F;
 }
-.about-bisaat span.a{
+.about-bisaat span.a img{
 
-    margin-top: 3em;
+    width: 300px;
+    height: auto;
 }
 .about-bisaat span p{
 
@@ -184,11 +185,15 @@ nav a:focus{
 
     display: inline-block;
     vertical-align: top;
-    margin-inline: 3em;
+    margin-inline: 2em;
     padding: 0.5em 1.75em;
     border-width: 3px;
     border-style: solid;
     border-color: black;
+}
+.about-learn span.left{
+
+    padding: 1.7em 1.75em;
 }
 .about-learn li{
     font-weight: 700;
