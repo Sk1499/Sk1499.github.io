@@ -116,27 +116,32 @@ nav a:focus{
 }
 .about-speaker{
 
-    padding: 0.8em;
+    padding: 1em;
     color: #000000;
+}
+.about-speaker span{
+    display: inline-block;
+    margin-left: 4em;
 }
 .about-speaker img{
 
     width: 400px;
     height: auto;
 }
-.about-speaker span{
 
-    float:left;
-    margin-left: 4em;
-}
 .about-speaker p{
 
     font-weight: 700;
     text-decoration: none;
     font-size: 0.9em;
-    padding: 0.5em;
-    text-align: left;
+    text-align: center;
     color: black;
+    padding: 0.5em 1.75em;
+}
+.about-speaker span.b{
+
+    border-width: 3px;
+    border-style: solid;
 }
 .about-bisaat{
 
@@ -146,18 +151,26 @@ nav a:focus{
 .about-bisaat span {
 
     display: inline-block;
+    vertical-align: top;
     margin: 1em;
     margin-top: 0;
-    margin-inline: 8em;
+    margin-inline: 5.5em;
     background-color: rgb(65, 65, 65);
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
     color: #FFB73F;
+}
+.about-bisaat span.a{
+
+    margin-top: 3em;
 }
 .about-bisaat span p{
 
     font-weight: 700;
     text-decoration: none;
     font-size: 0.9em;
-    padding: 0.5em;
-    text-align: left;
+    text-align: center;
     color: rgb(241, 241, 241);
+    padding: 0.5em 1.75em;
 }
