@@ -135,6 +135,7 @@ nav a:focus{
     text-decoration: none;
     font-size: 0.9em;
     text-align: center;
+    line-height: 1.6;
     color: black;
     padding: 0.5em 1.75em;
 }
@@ -171,6 +172,29 @@ nav a:focus{
     text-decoration: none;
     font-size: 0.9em;
     text-align: center;
+    line-height: 1.6;
     color: rgb(241, 241, 241);
     padding: 0.5em 1.75em;
+}
+.about-learn{
+
+    padding: 3em;
+}
+.about-learn span{
+
+    display: inline-block;
+    vertical-align: top;
+    margin-inline: 3em;
+    padding: 0.5em 1.75em;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+.about-learn li{
+    font-weight: 700;
+    margin: 0.5em;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-align: left;
+    line-height: 1.6;
 }
