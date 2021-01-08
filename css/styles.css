@@ -122,6 +122,7 @@ nav a:focus{
     margin: 1em;
 }
 .about-speaker span{
+    max-width: 45%;
     display: inline-block;
     margin: 0 4em;
 }
@@ -155,11 +156,12 @@ nav a:focus{
 }
 .about-bisaat span {
 
+    max-width: 45%;
     display: inline-block;
     vertical-align: top;
     margin: 1em;
     margin-top: 0;
-    margin-inline: 5.5em;
+    margin-inline: 1em;
     background-color: rgb(65, 65, 65);
     border-width: 3px;
     border-style: solid;
@@ -190,7 +192,7 @@ nav a:focus{
     padding: 3em;
 }
 .about-learn span{
-
+    max-width: 45%;
     display: inline-block;
     vertical-align: top;
     margin-inline: 2em;
@@ -259,32 +261,18 @@ nav a:focus{
     from {opacity: .4}
     to {opacity: 1}
   }
+  @media only screen and (max-width: 700px){
+    
+    .about-speaker span{
 
-  /*media queries*/
-  @media only screen and (max-width: 952px){
-      nav li{
-          display: block;
-          padding: 0.5em;
-          margin: 0;
-          margin-inline: 0;;
-      }
-      .about-speaker{
-          margin: 0;
-      }
-      .about-learn p{
-          padding: 0.5em 0.5em;
-          line-height: normal;
-      }
-  }
-  @media only screen and (max-width: 600px){
-    * {
-        margin: 0;
-        padding: 0;
-        border-radius: 0;
+        display: block;
+        max-width: 100%;
     }
-    .p{
-        font-size: 1em;
-        text-align: left;
-        line-height: normal;
+    .about-bisaat span{
+        display: block;
+        max-width: 100%;
     }
-  }
+    .about-learn span{
+        display: block;
+     max-width: 100%
+ }
