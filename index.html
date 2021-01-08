@@ -102,47 +102,58 @@
 </section>
 <section id="four" class="home-results">
     <h1>2020 Results</h1>
-    <div class="carousel">
-        <button class="carousel__button carousel__button--left">
-            <img src="img/arrow_prev.png" alt="">
-        </button>
-        <div class="carousel__track-container">
-            <ul class="carousel__track">
-                <li class="carousel__slide">
-                    <img class="carousel__images" src="img/carousel/intra-day 1 min candle_result.jpeg" alt="">
-                </li>
-                <li class="carousel__slide">
-                    <img class="carousel__images" src="img/carousel/intraday 3 min candle_result.jpeg" alt="">
-                </li>
-                <li class="carousel__slide">
-                    <img class="carousel__images" src="img/carousel/intraday 5 min candle_result.jpeg" alt="">
-                </li>
-                <li class="carousel__slide">
-                    <img class="carousel__images" src="img/carousel/positional 1 min candle_result.jpeg" alt="">
-                </li>
-                <li class="carousel__slide">
-                    <img class="carousel__images" src="img/carousel/positional 3 min candle_result.jpeg" alt="">
-                </li>
-                <li class="carousel__slide">
-                    <img class="carousel__images" src="img/carousel/positional 15 min candle_result.jpeg" alt="">
-                </li>
-            </ul>
-        </div>
-        <button class="carousel__button carousel__button--right">
-            <img src="img/arrow_next.png" alt="">
-        </button>
-        <div class="carousel__nav">
-            <button class="carousel__indicator current-slide"></button>
-            <button class="carousel__indicator"></button>
-            <button class="carousel__indicator"></button>
-            <button class="carousel__indicator"></button>
-            <button class="carousel__indicator"></button>
-            <button class="carousel__indicator"></button>
-        </div>
+   <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="img/carousel/intra-day 1 min candle_result.jpg" style="width:100%">
     </div>
+  
+    <div class="mySlides fade">
+      <img src="img/carousel/intra-day 3 min candle_result.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="img/carousel/intra-day 5 min candle_result.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+        <img src="img/carousel/positional 1 min candle_result.jpg" style="width:100%">
+  
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img/carousel/positional 3 min candle_result.jpg" style="width:100%">
+  
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img/carousel/positional 15 min candle_result.jpg" style="width:100%">
+  
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+  <script src="js/carousel.js"></script>
+    
 </section>
 <section id="five" class="home-contact">
-    
+    <h1>Contact</h1>
 </section>
 
 
