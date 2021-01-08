@@ -259,3 +259,32 @@ nav a:focus{
     from {opacity: .4}
     to {opacity: 1}
   }
+
+  /*media queries*/
+  @media only screen and (max-width: 952px){
+      nav li{
+          display: block;
+          padding: 0.5em;
+          margin: 0;
+          margin-inline: 0;;
+      }
+      .about-speaker{
+          margin: 0;
+      }
+      .about-learn p{
+          padding: 0.5em 0.5em;
+          line-height: normal;
+      }
+  }
+  @media only screen and (max-width: 600px){
+    * {
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+    .p{
+        font-size: 1em;
+        text-align: left;
+        line-height: normal;
+    }
+  }
