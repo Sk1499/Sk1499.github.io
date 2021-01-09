@@ -317,7 +317,7 @@ nav a:focus{
 .about-speaker span{
     max-width: 100%;
     display: block;
-    margin: 0em 0em;
+    margin: 0.5em 0em;
 }
 .about-speaker img{
 
@@ -350,7 +350,7 @@ nav a:focus{
 
     max-width: 100%;
     display: block;
-    margin: 0em;
+    margin: 0.5em 0em;
     margin-top: 0;
     margin-inline: 0em;
     background-color: rgb(65, 65, 65);
@@ -359,6 +359,7 @@ nav a:focus{
     border-radius: 25px;
     border-color: white;
     color: #FFB73F;
+    padding: 1em 0.2em;
 }
 .about-bisaat span.a img{
 
@@ -386,6 +387,7 @@ nav a:focus{
     max-width: 100%;
     display: block;
     margin-inline: 0em;
+    margin: 0.5em 0em;
     padding: 0.2em 0.2em;
     border-width: 2.5px;
     border-style: solid;
