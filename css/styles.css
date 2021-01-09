@@ -263,7 +263,7 @@ nav a:focus{
   }
   @media only screen and (max-width: 700px){
     
-    .about-speaker span{
+    /*.about-speaker span{
 
         display: block;
         max-width: 100%;
@@ -275,4 +275,132 @@ nav a:focus{
     .about-learn span{
         display: block;
      max-width: 100%
- }
+ }*/
+ nav li{
+
+    display: block;
+    margin: 0em;
+    margin-inline: 0em;
+    padding: 1em;
+}
+
+nav a{
+
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 1.5em;
+    color: rgb(241, 241, 241);
+}
+
+nav a:hover,
+nav a:focus{
+
+    color: rgb(158, 158, 158);
+}
+
+.home-hero{
+
+    text-align: center;
+    margin: 0;
+    padding: 7em 0;
+    background-image: url(../img/stock-trading.jpg);
+    color: #FFB73F;
+}
+.about-speaker{
+
+    padding: 1em;
+    color: #000000;
+    margin: 0em;
+}
+.about-speaker span{
+    max-width: 100%;
+    display: block;
+    margin: 0em 0em;
+}
+.about-speaker img{
+
+    max-width: 100%;
+    height: auto;
+}
+
+.about-speaker p{
+
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.6;
+    color: black;
+    padding: 0.2em 0.2em;
+}
+.about-speaker span.b{
+
+    border-width: 2.5px;
+    border-style: solid;
+    border-radius: 25px;
+}
+.about-bisaat{
+
+    padding: 1em;
+    background-color: rgb(65, 65, 65);
+}
+.about-bisaat span {
+
+    max-width: 100%;
+    display: block;
+    margin: 0em;
+    margin-top: 0;
+    margin-inline: 0em;
+    background-color: rgb(65, 65, 65);
+    border-width: 2.5px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+    color: #FFB73F;
+}
+.about-bisaat span.a img{
+
+    width: 300px;
+    height: auto;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+}
+.about-bisaat span p{
+
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.6;
+    color: rgb(241, 241, 241);
+    padding: 0.2em 0.2em;
+}
+.about-learn{
+
+    padding: 1em;
+}
+.about-learn span{
+    max-width: 100%;
+    display: block;
+    margin-inline: 0em;
+    padding: 0.2em 0.2em;
+    border-width: 2.5px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: black;
+}
+.about-learn span.left{
+
+    padding: 0em 0em;
+}
+.about-learn li{
+    font-weight: 800;
+    margin: 0em;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.6;
+}
