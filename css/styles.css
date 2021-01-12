@@ -187,6 +187,10 @@ nav a:focus{
     color: rgb(241, 241, 241);
     padding: 0.5em 1.75em;
 }
+.about-bisaat span.c p{
+
+    padding-bottom: 6em;
+}
 .about-learn{
 
     padding: 3em;
@@ -205,6 +209,10 @@ nav a:focus{
 .about-learn span.left{
 
     padding: 1.7em 1.75em;
+}
+.about-learn span.right h5{
+
+    padding-bottom: 1.5em;
 }
 .about-learn li{
     font-weight: 700;
@@ -327,7 +335,7 @@ nav a:focus{
 
 .about-speaker p{
 
-    font-weight: 800;
+    font-weight: 600;
     text-decoration: none;
     font-size: 1em;
     text-align: left;
@@ -369,9 +377,13 @@ nav a:focus{
     border-radius: 25px;
     border-color: white;
 }
+.about-bisaat span.c p{
+
+    padding-bottom: 0em;
+}
 .about-bisaat span p{
 
-    font-weight: 800;
+    font-weight: 600;
     text-decoration: none;
     font-size: 1em;
     text-align: left;
@@ -399,7 +411,7 @@ nav a:focus{
     padding: 0em 0em;
 }
 .about-learn li{
-    font-weight: 800;
+    font-weight: 600;
     margin: 0em;
     text-decoration: none;
     font-size: 1em;

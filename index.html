@@ -26,7 +26,7 @@
 <section id="one" class="home-hero">
     <div class="container">
         <h1 class="title"> Learn and Earn<span> join the next course</span></h1>
-        <a href="" class="button button-accent">Book Now</a>
+        <a href="https://rzp.io/l/xHHBxW6a6" class="button button-accent">Book Now</a>
     </div>
 </section>
 
@@ -61,7 +61,7 @@
         signals to trade.  The pic below contains Bank Nifty Intraday 
         Bisaat in five time frames: 1m, 2m, 3m, 5m and 15m.</p>
         <img src="img/WhatsApp Image 2021-01-01 at 4.26.03 PM.jpeg" alt="trading window" ></span>
-    <span><h1>Why Bisaat</h1>
+    <span class="c"><h1>Why Bisaat</h1>
     <p>If you are not a gambler, Bisaat will help you.
         We, at Bisaat, have developed a system of trading 
         that can give you consistent returns.  The idea is 
@@ -89,7 +89,7 @@
         <li>Not hedging the trades to avoid big losses</li>
     </ul>
 </span>
-    <span><h1>What you will learn</h1>
+    <span class="right"><h1>What you will learn</h1>
     <ul>
         <li> A multi time-frame strategy: From 1 minute to 3 hours. This is how you outsmart
             the operators.</li>
@@ -104,6 +104,17 @@
 </secton>
 <section id="three" class="home-program-outline">
     <h1>Program Outline</h1>
+    <form action="payscript.php" method="POST">
+        <label for="fname"> Full Name</label>
+        <input type="text" id="fname" name="name" placeholder="Please enter your name">
+        <label for="email" >Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Please enter your email address">
+        <input type="hidden" value="<?php echo 'OID'.rand(100,1000);?>" name="order id">
+        <input type="hidden" value="<?php echo 1;?>" name="amount">
+        <label for="mobile" >Mobile</label>
+        <input type="tel"
+        
+    </form>
 </section>
 <section id="four" class="home-results">
     <h1>2020 Results</h1>
