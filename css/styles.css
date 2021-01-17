@@ -189,7 +189,7 @@ nav a:focus{
 }
 .about-bisaat span.c p{
 
-    padding-bottom: 6em;
+    padding-bottom: 2.5em;
 }
 .about-learn{
 
@@ -209,6 +209,9 @@ nav a:focus{
 .about-learn span.left{
 
     padding: 1.7em 1.75em;
+}
+.about-learn span.left li{
+    padding-bottom: 0.75em;
 }
 .about-learn span.right h5{
 
@@ -269,6 +272,49 @@ nav a:focus{
     from {opacity: .4}
     to {opacity: 1}
   }
+
+  .home-program-outline {
+    background-color: rgb(65, 65, 65);
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+.home-program-outline span.outline{
+    margin: 1em;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+    color: #FFB73F;
+}
+.home-program-outline ul{
+    max-width: 100%;
+    margin: 1em;
+    color: rgb(241, 241, 241)
+    
+}
+
+.home-program-outline li{
+    font-weight: 700;
+    margin: 0.5em;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-align: left;
+    line-height: 1.6;
+
+}
+.home-disclaimer{
+    padding: 1 em;
+}
+.home-disclaimer p{
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-align: left;
+    line-height: 1.6;
+    padding: 0.5em 20em;
+    color: red;
+}
   @media only screen and (max-width: 700px){
     
     /*.about-speaker span{
@@ -417,4 +463,16 @@ nav a:focus{
     font-size: 1em;
     text-align: left;
     line-height: 1.6;
+}
+.home-disclaimer{
+    padding: 1em;
+}
+.home-disclaimer p{
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-align: left;
+    line-height: 1.6;
+    padding: 0em;
+    color: red;
 }
