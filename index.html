@@ -7,6 +7,7 @@
 <meta name="HandheldFriendly" content="true">
 <title>Bisaat: The Winning Move</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header>
@@ -24,6 +25,7 @@
     </nav>
 </div>
 </header>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <section id="one" class="home-hero">
     <div class="container">
         <h1 class="title"> Learn and Earn<span> join the next course</span></h1>
@@ -45,7 +47,7 @@
     </div>
     <div class="about-bisaat">
     <span class="a"><h1>What is Bisaat</h1>
-    <p>Bisaat is a matrix of softwares palced on the Amibroker platform. It involves trading in multiple time frames with exact Entry and Exit points. These strategies have been highly optimized in order to give consistent returns. Once you opt to go for them, the Bisaat team will install them on your desktop. After that, you just have to wait for the Entry and Exit signals to trade. .</p>
+    <p>Bisaat is a matrix of softwares placed on the Amibroker platform. It involves trading in multiple time frames with exact Entry and Exit points. These strategies have been highly optimized in order to give consistent returns. Once you opt for them, the Bisaat team will install them on your desktop. After that, you just have to wait for the Entry and Exit signals to trade. .</p>
     <p>The pic below contains Bank Nifty Intraday Bisaat in four time frames: 1m, 2m, 3m and 5m.</p>
     <img src="img/WhatsApp Image 2021-01-01 at 4.26.03 PM.jpeg" alt="trading window" ></span>
     <span class="c"><h1>Why Bisaat</h1>
@@ -58,11 +60,11 @@
     <span class="left"><h1>Common mistakes that you will unlearn</h1>
     <ul>
         <li>Not squaring off at the right time and turning profits into losses</li>
-        <li>Fear of missing opportunity that makes traders enter trades at the wrong time</li>
+        <li>Fear of missing opportunity that makes you enter trades at the wrong time</li>
         <li>Trading against the trend in the hope that market is going to turn soon</li>
         <li>Very bad money management using leverages given by the brokers</li>
         <li>Not employing Options to gain time value in the positional trades</li>
-        <li>Not hedging the trades to avoid big losses</li>
+        <li>Not hedging the trades properlys</li>
     </ul>
 </span>
     <span class="right"><h1>What will Bisaat ensure?</h1>
@@ -71,9 +73,9 @@
         <li>Trend is being followed</li>
         <li>The Success Percentage and Risk-Reward Ratio are highly profitable </li>
         <li>You have a good money management system in which none of your trades have an SL of more than 0.5% of your capital</li>
-        <li>You are trading in multi time frames with their optimized parameters: single time frame trading is a road to hell.</li>
+        <li>You are trading in multi time frames with their optimized parameters: single time frame trading is a road to hell</li>
     </ul>
-    <h5> The Big Players can be tamed only when you use at least four of them in your overall strategy</h5 >
+    <h5> The Big Players can be tamed only when you use at least four time frames in your overall strategy.</h5 >
 </span>
 </div>
 </secton>
@@ -81,7 +83,6 @@
     <span class="outline">
     <h1>Program Outline</h1>
     <ul>
-        <li>The Big Players can be tamed only when you use at least four of them in your overall strategy</li>
         <li>Understanding the complex relationship between Open Interest and Volume</li>
         <li>The mystery of Stop Losses</li>
         <li>Hidden meaning of Supply and Demand</li>
@@ -92,6 +93,9 @@
         <li>Importance of multiple timeframe strategy</li>
         <li>Right Time Frames for Intraday trades</li>
         <li>Right Time Frames for Positional Trades</li>
+        <li>'Lagta hai' syndrome </li>
+        <li>Importance of buffers</li>
+        <li>Magic of scalping</li>
         <li>Importance of Right Mindset</li>
     </ul>
     </span>
@@ -144,8 +148,31 @@
     
 </section>
 <section id="five" class="home-contact">
-    <h1>Contact</h1>
+    <h1>Contact Us</h1>
+    <div class="contact-form">
+        <form action="php/action_page.php">
+      
+          <label for="fname">First Name-</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+      
+          <label for="lname">Last Name-</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+      
+          <label for="email">Email-</label>
+          <input type="email" id="email" name="email" placeholder="Your email address.." required>
+
+          <label for="mobile">Mobile Number-</label>
+          <input type="tel" id="mobile" name="mobile" placeholder="Your mobile number.." pattern="/(7|8|9)\d{9}/" required>
+      
+          <label for="subject">Subject-</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 </section>
+<hr>
 <section id="six" class="home-disclaimer">
     <span><h1>Disclaimer</h1>
     <p>This website is for educational purpose only. Do not base any trading or investment decision upon any information found on this website. The past results are no assurance that these will get repeated in future also.
@@ -153,5 +180,10 @@
         </p>
     </span>
 </section>
+<hr>
+<footer>
+<a href="https://instagram.com/bisaattrading?igshid=xtlluvop3q9g" id="social-insta" class="fa fa-instagram"></a>
+<a href="#" id="social-youtube" class="fa fa-youtube"></a>
+</footer>
 </body>
 </html>

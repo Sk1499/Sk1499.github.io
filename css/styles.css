@@ -145,6 +145,8 @@ nav a:focus{
 }
 .about-speaker span.b{
 
+    vertical-align: top;
+    padding-top: 2em;
     border-width: 3px;
     border-style: solid;
     border-radius: 25px;
@@ -315,7 +317,71 @@ nav a:focus{
     padding: 0.5em 20em;
     color: red;
 }
-  @media only screen and (max-width: 700px){
+.home-contact {
+    background-color: rgb(65, 65, 65);
+    color: rgb(241, 241, 241);
+    padding: 2em;
+}
+.home-contact label{
+    display: inline-block;
+}
+.home-contact input, textarea {
+        display: block;
+        padding-left: 5em;
+        width: 40%; /* Full width */
+        padding: 12px; /* Some padding */ 
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        margin-right: auto;
+        margin-left: auto;
+        resize: none; /* Allow the user to vertically resize the textarea (not horizontally) */
+      }
+      
+      /* Style the submit button with a specific background color etc */
+      .home-contact input[type=submit] {
+    background-color: #FFB73F;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      /* When moving the mouse over the submit button, add a darker green color */
+      .home-contact input[type=submit]:hover {
+        background-color: #d19733;
+      }
+      #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: red; /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+      }
+      
+      #myBtn:hover {
+        background-color: #555; /* Add a dark-grey background on hover */
+      }
+
+      #social-insta, #social-youtube {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+          }
+  @media only screen and (max-width: 1210px){
     
     /*.about-speaker span{
 
@@ -476,3 +542,18 @@ nav a:focus{
     padding: 0em;
     color: red;
 }
+
+.home-contact input, textarea {
+    display: block;
+    padding-left: 1em;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    margin-right: auto;
+    margin-left: auto;
+    resize: none; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
